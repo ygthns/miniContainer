@@ -27,11 +27,11 @@ python3  miniDocker.py --hostname tester --ip_addr 10.0.0.20 --mem_size 10 --cpu
 
 | Variable        | Required | Default       | Choices                   | Comments                               |
 | --------------- | -------- | ------------- | ------------------------- | -------------------------------------- |
-| hostname        | yes      | administrator |                           | Username to login with                 |
-| ip_addr         | yes      | 10.0.0.1      |                           | Password of the username to login with |
-| mem_size        | yes      | 10            | --mem                     | Name of the db to import               |
-| cpu_num         | yes      | 1             |                           | Target host for database and proxy     |
-| root_path       | yes      | ./new_root    | --cpu                     | Name of reverse proxy.                 |
+| hostname        | yes      | administrator |                           | Hostname of the container.             |
+| ip_addr         | yes      | 10.0.0.1      |                           | Ip Address of the container.           |
+| mem_size        | yes      | 10            | --mem                     | Memory size in MB for container.       |
+| cpu_num         | yes      | 1             |                           | CPU number for the container.          |
+| root_path       | yes      | ./new_root    | --cpu                     | Path of the root file directory.       |
 
 ## Requirements
 - Python3
