@@ -12,8 +12,10 @@ $tar xvf ubuntu-rootfs.tar.gz -C new_root/
 ```
 
 Dowload the following two program binaries and place them under ./new_root/home/
+```
 http://www.cs.binghamton.edu/~huilu/slidesfall2021/loop
 http://www.cs.binghamton.edu/~huilu/slidesfall2021/mem
+```
 Now, the new root filesystem is ready. You can use it as the root file system of the container instance. You can execute the following code now.
 
 ```
